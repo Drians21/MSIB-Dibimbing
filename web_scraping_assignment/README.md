@@ -1,4 +1,4 @@
-# Web Scraping With BeautifulSoup dan Request
+# Web Scraping With BeautifulSoup and Request
 
 url = 'https://www.petsecure.com.au/pet-care/a-guide-to-worldwide-pet-ownership/'
 
@@ -76,7 +76,7 @@ for tr in table.find_all('tr'):
 ```
 Code diatas digunakan untuk mengambil data table row. berikut beberapa langkahnya.
 - Mencari tag `tr` untuk mendapatkan table row
-- melakukan tag `td` dan melakukan looping untuk mendapatkan value setiap row
+- Mencari tag `td` dan melakukan looping untuk mendapatkan value setiap row
 
 ### `Menggabungkan Header dan Data ke dalam Dataframe`
 ```python
